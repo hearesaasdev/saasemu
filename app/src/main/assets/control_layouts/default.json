@@ -1,0 +1,9 @@
+{
+  "name": "default",
+  "buttons": [
+    { "id": "dpad", "type": "dpad", "x": 0.06, "y": 0.78, "size": 0.28 },
+    { "id": "btnA", "type": "button", "x": 0.80, "y": 0.78, "size": 0.12 },
+    { "id": "btnB", "type": "button", "x": 0.68, "y": 0.86, "size": 0.12 },
+    { "id": "btnStart", "type": "button", "x": 0.50, "y": 0.95, "size": 0.10 }
+  ]
+}

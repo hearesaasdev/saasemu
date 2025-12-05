@@ -1,0 +1,64 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="emu.saasemu.app">
+
+    <!-- Permissões -->
+    <!-- Para acessar arquivos pelo SAF NÃO é necessário READ/WRITE -->
+    <!-- Porém manter READ ajuda compatibilidade com Android 10 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Não é necessária para Android 11+ e nem recomendada -->
+    <!-- Deixe apenas se estiver usando Android 10 para copiar arquivos locais -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:label="SaaS Emu"
+        android:icon="@mipmap/ic_launcher"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/Theme.SaaSEmu">
+
+        <!-- Emulation Activity -->
+        <activity
+            android:name="emu.saasemu.app.ui.EmulationActivity"
+            android:screenOrientation="fullSensor"
+            android:exported="false" />
+
+        <activity
+            android:name="emu.saasemu.app.ui.CatalogActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="emu.saasemu.app.ui.ImportBiosActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="emu.saasemu.app.ui.ImportCoreActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="emu.saasemu.app.ui.SettingsActivity"
+            android:exported="false" />
+
+        <!-- Launcher -->
+        <activity
+            android:name="emu.saasemu.app.ui.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>ndroid:name=".ui.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

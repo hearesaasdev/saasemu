@@ -1,0 +1,38 @@
+<resources>
+    <!-- Nome do app -->
+    <string name="app_name">SaaS Emu</string>
+
+    <!-- Menu principal -->
+    <string name="menu_emulate">Emular</string>
+    <string name="menu_catalog">Catálogo de ROMs</string>
+    <string name="menu_import_core">Importar Core (.so)</string>
+    <string name="menu_import_bios">Importar BIOS</string>
+    <string name="menu_settings">Configurações</string>
+
+    <!-- Catalog -->
+    <string name="open_roms">Abrir ROMs</string>
+    <string name="refresh">Atualizar</string>
+    <string name="no_roms_found">Nenhuma ROM encontrada</string>
+
+    <!-- Import Core -->
+    <string name="import_core">Importar Core (.so)</string>
+    <string name="core_imported">Core importado com sucesso</string>
+    <string name="core_failed">Falha ao importar Core</string>
+
+    <!-- Import BIOS -->
+    <string name="import_bios">Importar BIOS</string>
+    <string name="bios_imported">BIOS importada com sucesso</string>
+    <string name="bios_failed">Falha ao importar BIOS</string>
+
+    <!-- Emulação -->
+    <string name="load_core">Carregar Core</string>
+    <string name="load_rom">Carregar ROM</string>
+    <string name="start_emulation">Iniciar Emulação</string>
+    <string name="emulation_failed">Falha ao iniciar emulação</string>
+    <string name="emulation_started">Emulação iniciada</string>
+
+    <!-- Settings -->
+    <string name="fast_forward">Fast Forward</string>
+    <string name="linear_filter">Filtro Linear</string>
+    <string name="rewind_enable">Ativar Rewind</string>
+</resources>
